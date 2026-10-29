@@ -2,7 +2,7 @@
 
 ## Roadmap
 
-Abaixo está o roadmap com as datas de início e término de cada atividade, conforme solicitado.
+Abaixo está o roadmap com as datas de início e término de cada atividade:
 
 | Atividade | Início | Término | Observação |
 | --- | --- | --- | --- |
