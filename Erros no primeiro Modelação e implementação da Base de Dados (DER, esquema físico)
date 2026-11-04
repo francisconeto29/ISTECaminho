@@ -1,0 +1,10 @@
+Problemas
+
+Papel fixo no campo tipo (VARCHAR 20): um utilizador não pode ser condutor e passageiro ao mesmo tempo. Isto contradiz o caso típico de uma app de boleias.
+Redundância entre Utilizadores e Condutores: o condutor é uma tabela à parte com nome duplicado, o que cria inconsistência (o nome está em dois sítios).
+Carro dentro do condutor (carro VARCHAR(100)): só permite um carro por condutor e sem marca, modelo ou matrícula estruturados.
+Boleias muito pobre: sem data/hora, preço/custo, estado nem paragens intermédias. Sem data/hora a boleia nem é utilizável na prática.
+Sem estados controlados: estado como texto livre permite valores inválidos.
+Sem notificações, mensagens, administração ou auditoria.
+Denúncias vagas: só referencia utilizador e boleia, não mensagens.
+Diagrama confuso: as linhas cruzam-se muito e as relações são difíceis de ler.
