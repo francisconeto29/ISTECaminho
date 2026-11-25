@@ -98,7 +98,7 @@ function Offer({ go }) {
 }
 
 function Profile({ go }) {
-  return <section className="screen"><TopBar title="Minha conta" /><div className="screen-content profile-content"><div className="large-avatar">RM</div><h1>João Martins</h1><p className="subtitle">ISTEC Barreiro</p><div className="profile-list"><button><span>Minhas viagens</span><Icon name="arrow" /></button><button><span>Pagamentos</span><Icon name="arrow" /></button><button><span>Definições</span><Icon name="arrow" /></button></div><button className="primary-button logout-button" onClick={() => go('login')}>Terminar sessão</button></div></section>;
+  return <section className="screen"><TopBar title="Minha conta" /><div className="screen-content profile-content"><div className="large-avatar">RM</div><h1>Diogo Barbosa</h1><p className="subtitle">ISTEC Barreiro</p><div className="profile-list"><button><span>Minhas viagens</span><Icon name="arrow" /></button><button><span>Pagamentos</span><Icon name="arrow" /></button><button><span>Definições</span><Icon name="arrow" /></button></div><button className="primary-button logout-button" onClick={() => go('login')}>Terminar sessão</button></div></section>;
 }
 
 export default function App() {
